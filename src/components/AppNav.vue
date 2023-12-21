@@ -26,7 +26,7 @@ export default {
                     link: '#',
                     target: '_self'
                 },
-      
+
             ]
         }
     }
@@ -36,9 +36,10 @@ export default {
     <nav>
         <ul>
             <li v-for="menu in menuList"><a :href="menu.link" :target="menu.target">{{ menu.name }}</a></li>
-            <font-awesome-icon icon="fa-regular fa-heart" />
-            <font-awesome-icon icon="fa-regular fa-bell" />
-            <font-awesome-icon icon="fa-regular fa-user" />
+            <a href=""><font-awesome-icon icon="fa-regular fa-heart" /></a>
+            <a href=""><font-awesome-icon icon="fa-regular fa-bell" /></a>
+            <a href=""><font-awesome-icon icon="fa-regular fa-user" /></a>
+
         </ul>
 
     </nav>
@@ -46,22 +47,35 @@ export default {
 
 <style lang="scss" scoped>
 @use '../styles/variables.scss' as *;
+@use 'sass:color' ;
 
 nav {
+    
+   
     ul {
         margin: 0;
         list-style: none;
         display: flex;
         align-items: center;
+        justify-content: flex-end;       
+        
+        li{
+            padding-inline: 10px ;
+            background-color: $primary-color;
+        }
     }
+
+    
 
     a {
         display: inline-block;
         padding: 10px;
         background-color: $primary-color;
+        color: white;
+       
 
         &:hover {
-            background-color: darken($primary-color, 10%);
+            background-color: color.scale($primary-color, $lightness: 10%);
         }
     }
 }
