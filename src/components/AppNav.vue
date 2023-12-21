@@ -26,6 +26,7 @@ export default {
                     link: '#',
                     target: '_self'
                 },
+      
             ]
         }
     }
@@ -34,10 +35,12 @@ export default {
 <template>
     <nav>
         <ul>
-            <li v-for="menu in menuList"><a :href="menu.link" :target="menu.target">{{menu.name}}</a></li>
-         
-            
+            <li v-for="menu in menuList"><a :href="menu.link" :target="menu.target">{{ menu.name }}</a></li>
+            <font-awesome-icon icon="fa-regular fa-heart" />
+            <font-awesome-icon icon="fa-regular fa-bell" />
+            <font-awesome-icon icon="fa-regular fa-user" />
         </ul>
+
     </nav>
 </template>
 
@@ -49,6 +52,7 @@ nav {
         margin: 0;
         list-style: none;
         display: flex;
+        align-items: center;
     }
 
     a {

@@ -2,4 +2,8 @@
    export default{
 name:'AppMain'
    } 
-</script><template>main</template>
+</script>
+<template>
+    nabu
+
+</template>

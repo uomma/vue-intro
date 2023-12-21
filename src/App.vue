@@ -7,13 +7,13 @@ export default {
   data() {
     return {
 
-     
+
     }
   },
   components: {
     AppHeader,
-      AppMain,
-      AppFooter,
+    AppMain,
+    AppFooter,
   }
 }
 </script>
@@ -22,6 +22,7 @@ export default {
   <AppHeader></AppHeader>
   <AppMain></AppMain>
   <AppFooter></AppFooter>
+  
 </template>
 
 <style lang="scss">
