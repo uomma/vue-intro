@@ -57,15 +57,14 @@ nav {
         list-style: none;
         display: flex;
         align-items: center;
-        justify-content: flex-end;       
+        justify-content: flex-end;     
+        padding-right: 20px;  
         
         li{
             padding-inline: 10px ;
             background-color: $primary-color;
         }
     }
-
-    
 
     a {
         display: inline-block;

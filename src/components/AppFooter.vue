@@ -9,6 +9,6 @@ components:{
    } 
 </script>
 <template>
-    <AppLogo></AppLogo>
+    
 <div>menu footer</div>
 </template>
