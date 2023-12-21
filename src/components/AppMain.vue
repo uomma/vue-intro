@@ -1,8 +1,13 @@
 <script>
+import AppMainMenu from './AppMainMenu.vue';
 export default {
-    name: 'AppMain'
+    name: 'AppMain',
+    components: {
+        AppMainMenu,
+    }
+
 } 
 </script>
 <template>
-    nabu
+    <AppMainMenu></AppMainMenu>
 </template>
