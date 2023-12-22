@@ -2,9 +2,9 @@
 
 
 @mixin bgImg($img){
-    background-image: url(/public/shoes.jpg);
+    background-image: url(/public/nikes.jpg);
     background-repeat: no-repeat;
-    background-size: over;
+    background-size:contain;
     background-position: center;
 }
 

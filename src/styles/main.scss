@@ -3,5 +3,5 @@
 @use './variables.scss' as *;
 
 .container{
-  @include container(1135px);
+  @include container(1135px);   
 }

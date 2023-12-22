@@ -29,11 +29,4 @@ export default {
 @use './styles/variables.scss' as *;
 @use './styles/general.scss' as *;
 
-h1 {
-  color: $primary-color;
-
-  span {
-    color: yellow;
-  }
-}
 </style>

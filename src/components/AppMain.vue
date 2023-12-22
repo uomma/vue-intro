@@ -17,9 +17,6 @@ export default {
 </main>
 </template>
 <style lang="scss" scoped>
-main{
-    height: 300px;
-   
-}
+
 
 </style>

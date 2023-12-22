@@ -33,7 +33,7 @@ export default {
             <div class="third">
                 <a href="">Diritti del Consumatore</a><a href="">Le tue preferenze per la Privacy</a>
             </div>
-            <div class="fourth">©2023 StockX. Tutti i diritti riservati.</div>
+            <div class="fourth">©2023 StockY. Tutti i diritti riservati.</div>
         </div>
     </footer>
 </template>
