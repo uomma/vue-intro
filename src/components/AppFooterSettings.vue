@@ -66,7 +66,7 @@ button {
     height: 30px;
     display: flex;
     background-color: white;
-    padding-inline: 10px;
+  
 }
 
 .helpers {

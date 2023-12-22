@@ -40,12 +40,14 @@ export default {
 section {
     @include bgImg('/nikes.jpg');
 
-    background-color: red;
     padding: 3.75rem;
 }
 
 h2 {
-    text-align: center;
+    text-align: start;
+    width: auto;
+    text-shadow: 1px 1px 2px red;
+    text-decoration: solid;
 }
 
 .box {
@@ -57,7 +59,7 @@ h2 {
     .product {
         flex-basis: calc(100% / 6);
         border: 1px solid black;
-        background-color: yellow;
+        background-color: white;
 
      
     }

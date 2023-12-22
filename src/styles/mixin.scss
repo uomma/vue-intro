@@ -4,7 +4,7 @@
 @mixin bgImg($img){
     background-image: url(/public/nikes.jpg);
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size:cover;
     background-position: center;
 }
 
