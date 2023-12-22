@@ -1,7 +1,9 @@
 <script>
+import CardShoe from './CardShoe.vue';
+
 export default {
     name: 'AppMainContainer',
-
+    components: { CardShoe },
     data() {
         return {
             shoes: [
@@ -23,12 +25,7 @@ export default {
         <h2>Scarpe più Vendute</h2>
         <div class="container">
             <div class="box">
-                <div class="card" v-for="shoe in shoes">
-                    <div class="img"><img :src="shoe.src" alt=""></div>
-                    <h6>{{ shoe.name }}</h6>
-                    <h3>{{ shoe.price }}</h3>
-
-                </div>
+                <CardShoe class="product" v-for="shoe in shoes" :img="shoe.src" :title="shoe.name" :price="shoe.price"/>
 
             </div>
         </div>
@@ -37,6 +34,8 @@ export default {
 
 <style lang="scss" scoped>
 @use '../styles/mixin.scss' as *;
+
+
 
 section {
     @include bgImg('/nikes.jpg');
@@ -52,19 +51,16 @@ h2 {
 .box {
     display: flex;
     flex-wrap: nowrap;
-    
 
 
-    .card {
+
+    .product {
         flex-basis: calc(100% / 6);
         border: 1px solid black;
         background-color: yellow;
 
-        img {
-            padding-inline: 10px;
-            width: 200px;
-            height: 140px ;
-        }
+     
     }
+ 
 }
 </style>
