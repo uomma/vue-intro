@@ -1,0 +1,7 @@
+@use './general.scss'  as *;
+@use './mixin.scss' as *;
+@use './variables.scss' as *;
+
+.container{
+  @include container(1135px);
+}

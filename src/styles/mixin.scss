@@ -1,0 +1,16 @@
+/* BG IMG */
+
+
+@mixin bgImg($img){
+    background-image: url(/public/shoes.jpg);
+    background-repeat: no-repeat;
+    background-size: over;
+    background-position: center;
+}
+
+/* container */
+
+@mixin container($size){
+    max-width:  $size;
+    margin: auto;
+}
