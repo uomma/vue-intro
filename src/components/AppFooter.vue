@@ -1,14 +1,23 @@
 <script>
-import AppLogo from './AppLogo.vue';
-
+import AppFooterTrend from './AppFooterTrend.vue';
+import AppFooterSettings from './AppFooterSettings.vue'
    export default{
 name:'AppFooter',
 components:{
-    AppLogo
+   AppFooterTrend,
+   AppFooterSettings,
 }
    } 
 </script>
 <template>
     
-<div>menu footer</div>
+<footer>
+   <AppFooterTrend></AppFooterTrend>
+   <AppFooterSettings></AppFooterSettings>
+</footer>
 </template>
+<style lang="scss" scoped>
+footer{
+   background-color: green;
+}
+</style>
