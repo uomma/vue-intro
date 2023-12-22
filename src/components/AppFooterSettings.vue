@@ -45,8 +45,10 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-inline:100px ;
+    margin-inline: 100px;
 }
+
+
 
 button {
     display: flex;
@@ -72,5 +74,13 @@ button {
     flex-direction: column;
     align-items: flex-end;
     padding: 3px;
+
+  
+    a {
+        text-decoration: none;
+        padding-inline: 3px;
+        color: black;
+    }
+
 }
 </style>

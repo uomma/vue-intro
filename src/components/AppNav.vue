@@ -71,10 +71,13 @@ nav {
         padding: 10px;
         background-color: $primary-color;
         color: white;
+        text-decoration: none;
+                
        
 
         &:hover {
             background-color: color.scale($primary-color, $lightness: 10%);
+            text-decoration:underline;
         }
     }
 }

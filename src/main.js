@@ -13,6 +13,8 @@ import { faHeart, faBell, faUser,  } from '@fortawesome/free-regular-svg-icons'
 import {  faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 
 
+/* import font nunito */
+import "@fontsource/nunito/400-italic.css";
 
 
 /* add icons to the library */
